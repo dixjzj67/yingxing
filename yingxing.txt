@@ -223,3 +223,10 @@ player:AddButton({
       	loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
   	end
 })
+
+Tab:AddButton({
+	Name = "刀刃球",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua"))()
+	end
+})
