@@ -301,3 +301,5 @@ Tab:AddButton({
       		      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39, 10, 1838)
   	end    
 })
+
+local Tab = Window:MakeTab({ Name = "海贼王", Icon = "rbxassetid://7734068321", PremiumOnly = false }) Tab:AddButton({ 	Name = "海贼王", 	Callback = function() 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")() 	end })
