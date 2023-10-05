@@ -1,78 +1,78 @@
-local CoreGui = game:GetService("StarterGui")
+PremiumOnly = false
 
-CoreGui:SetCore("SendNotification", {
-    Title = "确认身份",
-    Text = "正在验证....",
-    Duration = 3, 
+Tab:addsection（“您的用户名：”，"..game.Players.LocalPlayer.Name.."）
+Tab:addsecurity（“您的注入器：”，"..identifyexecutor（）.."）
+Tab:addsection（“您当前服务器的 id”，"..game.GameId.."）
+Tab:addsection（“作者”，“作者”）
 })
-local CoreGui = game:GetService("StarterGui")CoreGui:SetCore("SendNotification", {    Title = "阴星🇨🇳",    Text = "耐心等待（你已被列入白名单）",    Duration = 5, })print("作者阴星⭐")		local vu = game:GetService("VirtualUser")		game:GetService("Players").LocalPlayer.Idled:connect(function()		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)		   wait(1)		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)		end)
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "阴星脚本", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "欢迎使用"})
+Tab:AddLabel（“作者 qq:368483193”）
+Tab:AddLabel（“qq群:390089673”）
+Tab:AddLabel（“此脚本己免费”）
 
 local Tab = Window:MakeTab({
-    Name = "脚本公告",
-    Icon = "rbxassetid://7734068321",
-    PremiumOnly = false
+Name=“常用”，
+Icon = "rbxassetid://7734068321",
+PremiumOnly = false
 })
 
-Tab:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
-Tab:AddParagraph("您的注入器:"," "..identifyexecutor().."")
-Tab:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
+Name=“飞行”，
+回调=function（）
+结束
 
-Tab:AddParagraph("作者","阴星")
-Tab:AddLabel("作者QQ：368483193")
-Tab:AddLabel("QQ群：390089673")
-Tab:AddLabel("此脚本己免费")
-local Tab = Window:MakeTab({
-    Name = "常用",
-    Icon = "rbxassetid://7734068321",
-    PremiumOnly = false
+使用
+控制+换挡+m
+切换
+突耳
+按键移动焦点。或者，使用
+欧洲心脏病学会
+然后
+突耳
 })
 Tab:AddButton({
-	Name = "飞行",
-	Callback = function()
+移动到页面上的下一个交互元素。编辑u阴星（1）文件内容
+local CoreGui = game:GetService("StarterGui")
       	loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
-  	end    
+PremiumOnly = false
 })
 
 Tab:AddTextbox({
-	Name = "移动速度",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-	end	 
+Name=“移动速度”，
+Default = "",
+TextDisappear = true,
+回调=函数（值）
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+结束
 })
  
 Tab:AddTextbox({
-	Name = "跳跃高度",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-	end	 
+Name=“跳跃高度”，
+Default = "",
+TextDisappear = true,
+回调=函数（值）
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+结束
 })
 
 Tab:AddTextbox({
-	Name = "重力设置",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		game.Workspace.Gravity = Value
-	end
+Name=“重力设置”，
+Default = "",
+TextDisappear = true,
+回调=函数（值）
+game.Workspace.Gravity = Value
+结束
 })
 Tab:AddButton({
-	Name = "人物无敌",
-	Callback = function()
+Name=“人物无敌”，
+回调=function（）
      loadstring(game:HttpGet('https://pastebin.com/raw/H3RLCWWZ'))()
-	end    
+结束
 })
 
 Tab:AddButton({
-	Name = "变成蛇",
-	Callback = function()
+Name=“变成蛇”，
+回调=function（）
 loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
-	end
+结束
 })
 
 Tab:AddButton({
